@@ -1,0 +1,12 @@
+# Empty plot
+plot(NULL,
+     xlim = c(0, 10),
+     ylim = c(0, 100),
+     xlab = "X-Axis",
+     ylab = "Y-Axis",
+     main = "Empty Plot")
+
+# Add points
+points(2, 20, col = "red", pch = 19)
+points(5, 50, col = "blue", pch = 19)
+points(8, 80, col = "green", pch = 19)
