@@ -1,0 +1,17 @@
+# Create vector
+v <- 1:12
+
+# Create array
+arr <- array(v,
+             dim = c(3,2,2),
+             dimnames = list(
+               Row = c("R1","R2","R3"),
+               Column = c("C1","C2"),
+               Table = c("T1","T2")
+             ))
+
+# Display array
+print(arr)
+
+# Print specific element
+print(arr["R2","C1","T2"])
