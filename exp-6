@@ -1,0 +1,30 @@
+# Vector
+v <- c(10,20,30,40)
+
+# Matrix
+m <- matrix(1:9, nrow=3)
+
+# Function
+square <- function(x)
+{
+  x^2
+}
+
+# Create list
+mylist <- list(
+  Vector = v,
+  Matrix = m,
+  Function = square
+)
+
+# Display list
+print(mylist)
+
+# Access vector
+print(mylist$Vector)
+
+# Access matrix
+print(mylist$Matrix)
+
+# Call function
+print(mylist$Function(5))
