@@ -1,0 +1,13 @@
+# Heights factor
+heights <- factor(c("Short","Tall","Medium","Tall","Short","Medium"))
+print(heights)
+
+# Levels of factor
+levels(heights)
+
+# Random LETTERS sample
+letters_sample <- factor(sample(LETTERS[1:5], 10, replace = TRUE))
+print(letters_sample)
+
+# Frequency of each level
+table(letters_sample)
