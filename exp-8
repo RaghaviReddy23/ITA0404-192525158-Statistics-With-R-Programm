@@ -1,0 +1,16 @@
+# Generate 100 random numbers
+set.seed(123)
+x <- rnorm(100)
+
+# Display numbers
+print(x)
+
+# Frequency distribution
+counts <- table(cut(x, breaks = 10))
+print(counts)
+
+# Histogram
+hist(x,
+     main = "Normal Distribution",
+     xlab = "Values",
+     col = "lightblue")
